@@ -1,0 +1,48 @@
+:folder: Migration Test
+:pages:
+  - :type: page
+    :name: __page1
+    :attachments:
+      - :filename: __page1_at1
+      - :filename: __page1_at2
+    :children:
+      - :type: google_spreadsheet
+        :name: __page1_sp1
+        :attachments: []
+        :children: []
+      - :type: google_document
+        :name: __page1_doc1
+        :attachments: []
+        :children: []
+      - :type: page
+        :name: __page1_page1
+        :attachments: []
+        :children:
+          - :type: google_spreadsheet
+            :name: __page1_page1_sp1
+            :attachments: []
+            :children: []
+          - :type: google_document
+            :name: __page1_page1_doc1
+            :attachments: []
+            :children: []
+          - :type: google_document
+            :name: __page1_page1_doc2
+            :attachments: []
+            :children: []
+  - :type: page
+    :name: __page2
+    :attachments: []
+    :children:
+      - :type: google_spreadsheet
+        :name: __page2_sp1
+        :attachments: []
+        :children: []
+      - :type: google_spreadsheet
+        :name: __page2_sp2
+        :attachments: []
+        :children: []
+  - :type: google_spreadsheet
+    :name: __sp1
+    :attachments: []
+    :children: []
